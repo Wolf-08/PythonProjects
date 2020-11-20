@@ -15,6 +15,10 @@ print(planetas)
 planetas.clear()
 print(planetas)
 
+"""
+Python dict 
+more notes comming son from the book
+"""
 
 dicc= {
   "D1": "Dato1",
@@ -34,5 +38,5 @@ for element in dicc.values():
   print(element)
 #4.Show the key and the value
 for key in dicc:
-  print(key,"->",dicc[key], end=" ,")
+  print(key,"->",dicc[key],g end=" ,")
 
